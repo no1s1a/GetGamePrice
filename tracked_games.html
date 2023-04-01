@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracked Games</title>
+</head>
+<body>
+    <h1>Tracked Games</h1>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Image</th>
+        </tr>
+        {% for app_id, game in games.items() %}
+<tr>
+<td>{{ game.name }}</td>
+<td>{{ game.price }}</td>
+<td><img src="{{ game.image }}" alt="{{ game.name }}" width="300"></td>
+</tr>
+{% endfor %}
+</table>
+
+</body>
+</html>
