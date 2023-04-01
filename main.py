@@ -8,9 +8,9 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import Updater, CommandHandler, CallbackQueryHandler, CallbackContext
 
 # Замените значения YOUR_TELEGRAM_API_TOKEN и YOUR_GROUP_CHAT_ID на соответствующие значения
-TOKEN = "920834262:AAFbgVXgqhrEkDjfxfmHPL3tcS9QyrhywDM"
-GROUP_CHAT_ID = "-1001877067791"
-STEAM_API_KEY = "8C545C76AF8E0364D0D5B73EE1A3AAB2"
+TOKEN = "0000"
+GROUP_CHAT_ID = "0000"
+STEAM_API_KEY = "0000"
 
 app = Flask(__name__)
 app.env = "development"
